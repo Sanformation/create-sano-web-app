@@ -1,13 +1,13 @@
 {
   "name": "create-sano-web-app",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Can create small web apps",
   "main": "index.js",
   "bin": {
     "create-sano-web-app": "index.js"
   },
   "scripts": {
-    "git": "git status && git add . && git commit -m \"update v%npm_package_version%\" && git push"
+    "git": "git status && npm version patch --force && git add . && git commit -m \"update v%npm_package_version%\" && git push"
   },
   "type": "module",
   "repository": {
