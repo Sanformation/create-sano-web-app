@@ -1,0 +1,14 @@
+{
+  "name": "create-sano-web-app",
+  "version": "1.0.0",
+  "description": "Can create small web apps",
+  "main": "index.js",
+  "bin": {
+    "create-my-app": "index.js"
+  },
+  "scripts": {},
+  "type": "module",
+  "keywords": ["web", "app", "create", "sano", "JobLessGod"],
+  "author": "JobLessGod",
+  "license": "ISC"
+}
