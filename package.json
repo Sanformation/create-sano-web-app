@@ -1,14 +1,30 @@
 {
   "name": "create-sano-web-app",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "Can create small web apps",
   "main": "index.js",
   "bin": {
-    "create-my-app": "index.js"
+    "create-sano-web-app": "index.js"
   },
-  "scripts": {},
+  "scripts": {
+    "git": "git status && git add . && git commit -m 'update v%npm_package_version%'"
+  },
   "type": "module",
-  "keywords": ["web", "app", "create", "sano", "JobLessGod"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sanformation/create-sano-web-app.git"
+  },
+  "homepage": "https://github.com/Sanformation/create-sano-web-app",
+  "bugs": {
+    "url": "https://github.com/Sanformation/create-sano-web-app/issues"
+  },
+  "keywords": [
+    "web",
+    "app",
+    "create",
+    "sano",
+    "JobLessGod"
+  ],
   "author": "JobLessGod",
   "license": "ISC"
 }
