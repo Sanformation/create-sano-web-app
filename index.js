@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-//it requires two arguments, the first one is the name of the project and the second one is the path of the project
+
 const projectName = process.argv[2];
 
 if (!projectName) {

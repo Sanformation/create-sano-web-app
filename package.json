@@ -7,7 +7,7 @@
     "create-sano-web-app": "index.js"
   },
   "scripts": {
-    "git": "git status && git add . && git commit -m \"update v%npm_package_version%\""
+    "git": "git status && git add . && git commit -m \"update v%npm_package_version%\" && git push"
   },
   "type": "module",
   "repository": {
