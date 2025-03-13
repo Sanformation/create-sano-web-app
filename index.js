@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import fs from "fs";
 import path from "path";
 
@@ -10,7 +12,7 @@ if (!projectName) {
 
 const projectPath = path.join(process.cwd(), projectName);
 
-function createProjectStructure() {
+function init() {
   console.log(`Creating project: ${projectName}`);
 
   fs.mkdirSync(projectPath, { recursive: true });
@@ -21,4 +23,4 @@ function createProjectStructure() {
   console.log("Project structure created successfully.");
 }
 
-createProjectStructure();
+init();
